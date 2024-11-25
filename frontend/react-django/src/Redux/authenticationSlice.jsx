@@ -25,6 +25,7 @@ export const authenticationSlice = createSlice({
             } = action.payload;
             
             state.userId = user_id;
+            state.username = username;
             state.email = email;
             state.first_name = first_name;
             state.last_name = last_name;
